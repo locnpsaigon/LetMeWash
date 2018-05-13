@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">LetMeWash</string>
+    <string name="notification_id_channel">lmw_notification_channel_id</string>
+
+    <string name="action_add_to_cart">Thêm vào giỏ hàng</string>
+    <string name="action_back">Trở về</string>
+    <string name="action_cancel">Bỏ qua</string>
+    <string name="action_change_password">Đổi mật khẩu</string>
+    <string name="action_check_all">Chọn tất cả</string>
+    <string name="action_checkout">Tiến hành thanh toán</string>
+    <string name="action_close">Đóng</string>
+    <string name="action_loading">Đang nạp dữ liệu...</string>
+    <string name="action_login">Đăng nhập</string>
+    <string name="action_logout">Đăng xuất</string>
+    <string name="action_message">Messages</string>
+    <string name="action_next">Tiếp tục</string>
+    <string name="action_ok">Đồng ý</string>
+    <string name="action_recovery_password">Khôi phục mật khẩu</string>
+    <string name="action_register">Đăng ký</string>
+    <string name="action_reuse_order">Sử dụng lại đơn hàng</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_update">Cập nhật</string>
+
+
+    <!-- TODO: Hint -->
+    <string name="hint_address">Địa chỉ khách hàng</string>
+    <string name="hint_car_location">Địa điểm xe</string>
+    <string name="hint_email">Địa chỉ email (*)</string>
+    <string name="hint_email_guide">Địa chỉ email sẽ được dùng khi khôi phục mật khẩu</string>
+    <string name="hint_forgot_password">Quên mật khẩu?</string>
+    <string name="hint_fullname">Họ tên đầy đủ (*)</string>
+    <string name="hint_note">Ghi chú</string>
+    <string name="hint_password">Mật khẩu (*)</string>
+    <string name="hint_password_current">Mật khẩu hiện tại (*)</string>
+    <string name="hint_password_new">Mật khẩu mới(*)</string>
+    <string name="hint_password_confirm">Xác nhận mật khẩu (*)</string>
+    <string name="hint_password_rule">Mật khẩu phải bao gồm 6 ký tự và 1 chữ hoa</string>
+    <string name="hint_phone">Số điện thoại (*)</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="status_opened">Đang mở</string>
+    <string name="status_pending">Chờ xử lý</string>
+    <string name="status_processing">Đang xử lý</string>
+    <string name="status_finished">Hoàn tất</string>
+    <string name="status_close">Đã đóng</string>
+
+    <!-- TODO: Message -->
+    <string name="text_account">Tài khoản</string>
+    <string name="text_add_cart_item_success">Đã thêm vào giỏ hàng thành công</string>
+    <string name="text_address_required">Thiết bị không kết nối mạng</string>
+    <string name="text_amount">0Đ</string>
+    <string name="text_cart">Giỏ hàng</string>
+    <string name="text_cart_empty">Giỏ hàng của bạn đang trống</string>
+    <string name="text_cart_item_existed">Dịch vụ đã tồn tại trong giỏ hàng. Bạn có muốn đặt lại?</string>
+    <string name="text_change_password_fail">Đổi mật khẩu thất bại!</string>
+    <string name="text_change_password_success">Đổi mật khẩu thành công!</string>
+    <string name="text_confirm_payment">Xác nhận thanh toán</string>
+    <string name="text_confirm_reuse_order">Bạn có muốn sử dụng lại đơn hàng?</string>
+    <string name="text_copyright">Copyright (C) 2017</string>
+    <string name="text_date_time">Thời gian</string>
+    <string name="text_default">Text View</string>
+    <string name="text_designed_by">Designed by L.M.W</string>
+    <string name="text_discount">Giảm:</string>
+    <string name="text_email_required">Vui lòng nhập email</string>
+    <string name="text_empty"></string>
+    <string name="text_fill_input">Bạn cần điền các mục</string>
+    <string name="text_force_update">Bạn vui lòng cập nhật ứng dụng lên phiên bản mới nhất {0} để tiếp tục!</string>
+    <string name="text_fullname_required">Vui lòng nhập tên</string>
+    <string name="text_hello">Xin chào</string>
+    <string name="text_home">Trang chủ</string>
+    <string name="text_icon">Hình ảnh</string>
+    <string name="text_load_data_fail">Nạp dữ liệu thất bại!</string>
+    <string name="text_login_fail">Đăng nhập thất bại!</string>
+    <string name="text_login_in_process">Đang kiểm tra thông tin tài khoản...</string>
+    <string name="text_login_required">Bạn cần phải đăng nhập</string>
+    <string name="text_login_success">Đăng nhập thành công!</string>
+    <string name="text_message">Thông báo</string>
+    <string name="text_my_cart">Giỏ hàng của tôi</string>
+    <string name="text_my_message">Thông báo của tôi</string>
+    <string name="text_my_orders">Đơn hàng của tôi</string>
+    <string name="text_network_error">Thiết bị không kết nối mạng</string>
+    <string name="text_no_data">Không có dữ liệu</string>
+    <string name="text_note">Ghi chú</string>
+    <string name="text_order_date">Ngày đặt </string>
+    <string name="text_order_no">Số đơn hàng</string>
+    <string name="text_order_details">Chi tiết đơn hàng</string>
+    <string name="text_password_confirm_not_matched">Mật khẩu và xác nhận mật khẩu không trùng khớp</string>
+    <string name="text_password_rule_not_matched">Độ dài mật khẩu tối thiểu 6 ký tự</string>
+    <string name="text_phone_required">Vui lòng nhập số điện thoại</string>
+    <string name="text_please_wait">Xin chờ ứng dụng đang bận...</string>
+    <string name="text_price">Giá</string>
+    <string name="text_process_order">Đang xử lý đơn hàng...</string>
+    <string name="text_process_payment">Tiến hành thanh toán</string>
+    <string name="text_recovery_password_fail">Khôi phục mật mật khẩu thất bại!</string>
+    <string name="text_recovery_password_success">Khôi phục mật khẩu thành công! Bạn vui lòng kiểm tra email để nhận mật khẩu mới</string>
+    <string name="text_register_fail">Đăng ký tài khoản thất bại!</string>
+    <string name="text_register_in_progress">Xin chờ! Đang tiến hành đăng ký tài khoản...</string>
+    <string name="text_register_success">Đăng ký tài khoản thành công</string>
+    <string name="text_remain">Còn lại</string>
+    <string name="text_save_order_fail">Lưu đơn hàng thất bại!</string>
+    <string name="text_save_order_success">Lưu đơn hàng thành công!</string>
+    <string name="text_selected_service_required">Vui lòng chọn dịch vụ để tiếp tục</string>
+    <string name="text_service">Dịch vụ</string>
+    <string name="text_service_group">Nhóm dịch vụ</string>
+    <string name="text_signout_success">Bạn đã đăng xuất thành công</string>
+    <string name="text_support">Hỗ trợ</string>
+    <string name="text_status">Trạng thái</string>
+    <string name="text_title">Tiêu đề</string>
+    <string name="text_thank_you">Xin cám ơn quý khách!</string>
+    <string name="text_total">Tổng cộng</string>
+    <string name="text_update_remind">LetMeWash đã có phiên bản {0} mới hơn. Bạn có muốn cập nhật?</string>
+
+    <!-- TODO: Title -->
+    <string name="title_activity_order">Danh sách đơn hàng</string>
+    <string name="title_activity_order_details">Chi tiết đơn hàng</string>
+    <string name="title_blank_fragment">Hello blank fragment</string>
+    <string name="title_service">Dịch vụ</string>
+    <string name="title_update">Cập nhật</string>
+    <string name="title_service_details">Chi tiết dịch vụ</string>
+    <string name="title_service_group">Nhóm dịch vụ</string>
+    <string name="title_message">Thông báo</string>
+    <string name="title_message_details">Chi tiết thông báo</string>
+    <string name="title_support">Hỗ trợ</string>
+</resources>

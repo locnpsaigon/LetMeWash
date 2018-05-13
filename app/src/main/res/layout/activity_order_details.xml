@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vn.letmewash.android.OrderDetailsActivity">
+
+    <RelativeLayout
+        android:id="@+id/layoutData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <RelativeLayout
+            android:id="@+id/layoutHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/order_header_bg"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvOrderNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:gravity="start"
+                android:text="@string/text_order_no" />
+
+            <TextView
+                android:id="@+id/tvTotalAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/tvOrderNo"
+                android:gravity="start"
+                android:text="@string/text_total" />
+
+            <TextView
+                android:id="@+id/tvOrderDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvTotalAmount"
+                android:layout_alignParentStart="true"
+                android:gravity="start"
+                android:text="@string/text_date_time" />
+
+            <TextView
+                android:id="@+id/tvOrderStatus"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/tvOrderDate"
+                android:background="@drawable/order_status_bg"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="@string/text_status" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lvOrderDetails"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/layoutHeader"
+            android:layout_above="@+id/btReuseOrder"
+            android:background="@drawable/order_header_bg"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btReuseOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button_blue"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/colorWhite"
+            android:text="@string/action_reuse_order" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutStatus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/pgbStatus"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/tvStatus"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/imgIconStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvStatus"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/text_icon"
+            app:srcCompat="@drawable/ic_cancel" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imgIconRetry"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="@string/text_status" />
+
+        <ImageView
+            android:id="@+id/imgIconRetry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/ic_synchronize" />
+
+    </RelativeLayout>
+</FrameLayout>

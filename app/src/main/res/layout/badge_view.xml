@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/badge"
+    android:layout_width="48dp"
+    android:layout_height="fill_parent"
+    android:layout_gravity="right"
+    android:clickable="true">
+
+    <!-- Menu Item Image -->
+    <ImageView
+        android:id="@+id/imgBadgeIcon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_cart" />
+
+    <!-- Badge Count -->
+    <TextView
+        android:id="@+id/tvBadge"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/badge_bg"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>
